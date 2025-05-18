@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Meu primeiro projeto com HTML+CSS+JS">
+    <title>Minha Página</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Minha Página</h1>
+        <p>Uma mini autobiografia</p>
+    </header>
+    <!-- Nesta seção irei falar um pouco sobre mim-->
+    <section class="autobiografia">
+        <h2>Um pouco sobre mim</h2>
+        <p>
+            Olá! Meu nome é <strong>FELIPE CANTANHEDE</strong>, sou uma pessoa apaixonada pela vida, gosto de muitas coisas, sou bem eclético, gosto de futebol, tanto de praticar o esporte quanto de assistir, gosto de música, de sair com a família e amigos, estou sempre disposto a aprender coisas novas.
+        </p>
+        <br>
+        <p>
+            Atualmente estou vivendo uma fase ótima da minha vida, aos 25 anos, creio que estou me tornando uma pessoa mais "madura", começo a ver novos horizontes e situações de antes sobre novas perspectivas, conheci uma pessoa maravilhosa que está ao meu lado, me dá forças para continuar a jornada, por mais desafiador que ela pareça, como falei, vivo um momento ímpar, rogo a Deus que me conceda a benção de seguir crescendo como ser humano. Logo abaixo, falarei um pouco sobre meus hobbies.
+        </p>
+    </section>
+    <!-- Nesta seção irei falar um pouco sobre meus hobbies-->
+     <section class="hobbies">
+        <h2>Meus hobbies</h2>
+        <!-- vou utiliza a TAG <ul> para criar uma lista não ordenada dos meus hobbies-->
+        <ul>
+            <li>Jogar futebol</li>
+            <li>Assitir futebol</li>
+            <li>Ouvir músicas</li>
+        </ul>
+        <img class="img_hobby"  src="/assents/jogar_futebol.jpg"> <br>
+        <label><strong>Imagem 1.</strong> Meu hobby favorito</label>
+     </section>
+     <!--Nesta seção vou criar uma tabela com meus hobbies e imagens que fazem referência a eles-->
+     <section class="tabela-pais">
+        <h2>Meus hobbies e imagens referentes a eles</h2>
+        <table border="1">
+            <!--Vou criar um cabeçalho para minha tabela de hobbies-->
+            <thead>
+                <tr>
+                    <th class="hobbies">País</th>
+                    <th>Imagem</th>
+                </tr>
+            </thead>
+            <!--Vou relacionar na tabela os hobbies e as imagens correspondentes-->
+            <tbody>
+                <tr>
+                    <td>Inglaterra</td>
+                    <td><img src="/assents/inglaterra.png"></td>
+                </tr>
+                <tr>
+                    <td>Espanha</td>
+                    <td><img src="/assents/espanha.png"></td>
+                </tr>
+                <tr>
+                    <td>Portugal</td>
+                    <td><img src="/assents/portugal.png"></td>
+                </tr>
+            </tbody>
+        </table>
+     </section>
+     <section class="interatividade">
+        <p>Clique no link a seguir: <a href="#" id="meulink">www.felipe.com.br</a></p>
+        <br>
+        <br>
+        <button id="button1">Clique aqui!</button>
+     </section>
+     <footer>
+        <p>© 2025 Minha Página. Todos os direitos reservados</p>
+        <p> ® Felipe Cantanhede</p>
+     </footer>
+     <script src="meuscript.js"></script>
+</body>
+
+</html>

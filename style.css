@@ -1,0 +1,127 @@
+/*
+CÓDIGO CSS
+Projeto: Minha página
+Autor: Felipe Cantanhede
+Data: 17/05/2025
+Objetivo: Customizar o projeto, mudando cor e tamanho de fontes, padronização de imagens, tabela etc.
+*/
+
+/* Estilizando o corpo da página com fundo transparente */
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./assents/ouvir_musica.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: -1;
+    color: #111010;
+}
+
+/* estilizando o cabeçalho da página */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: #022852;
+    /*border-radius: 8px;*/
+    h1, p{
+        color: #fdfbfb;
+    }
+}
+
+/* colorindo o título e subtítulo da página */
+h1,h2 {
+    color: #0056b4;
+}
+
+/* personalizando o estilo das seções */
+section {
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+}
+
+
+/* Estilo da lista de hobbies */
+.hobbies ul{
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.hobbies li{
+    margin-bottom: 5px;
+}
+
+.img_hobby{
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Estila da tabela com os hobbies */
+.tabela-pais table{
+    width: 100%;
+    border-collapse: collapse; /* faz a remoção de espaços entre as bordas das células */
+    margin-top: 15px;
+}
+
+.tabela-pais th,
+.tabela-pais td {
+    border: 1px solid #999696; /* coloca a borda na cor cinza clara */
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela-pais th {
+    background-color: #f2f2f2; /* cria um fundo cinza claro para cabeçalhos */
+    color: #333;
+}
+
+.tabela-pais img {
+    max-width: 200px; /* Define uma largura máxima para as imagens */
+    height: auto; /* Mantém a proporção */
+    display: block; /* Remove espaço extra abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem na célula */
+}
+
+/* cor do link*/
+#meulink{
+    color: rgb(2, 88, 24);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+/* a cor do link ao passar o mouse*/
+#meulink:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+#button1{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+
+#button1:hover{
+    background-color: #0056b3;
+}
+
+
+/* Estilizando o cabeçalho da página*/
+footer{
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #555;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+}
